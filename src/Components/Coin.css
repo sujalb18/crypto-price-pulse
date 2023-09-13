@@ -1,0 +1,39 @@
+.coincontainer{
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    height: 80px;
+    width: 900px;
+    border-bottom: 1px solid black;
+
+}
+.firstcol{
+    display: flex;  
+    align-items: center;
+    width: 250px;
+    padding: 24px;
+}
+
+.firstcol p{
+    margin: 0 10px;
+}
+
+.seccol{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.seccol p{
+    width: 150px;
+}
+
+.redcolor{
+    color: red;
+}
+
+.greencolor{
+    color: green;
+}
